@@ -1,4 +1,4 @@
-**Road Damage** is a dataset for object detection tasks. Possible applications of the dataset could be in the utilities industry. 
+**Road Damage** is a dataset for object detection tasks. Possible applications of the dataset could be in the utilities and automotive industries. 
 
 The dataset consists of 3321 images with 6999 labeled objects belonging to 4 different classes including *pothole*, *lateral crack*, *longitudinal crack*, and other: *alligator crack*.
 

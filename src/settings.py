@@ -20,8 +20,10 @@ PROJECT_NAME_FULL: str = "Road Damage"
 # * After uploading to instance ##
 ##################################
 LICENSE: License = License.CC0_1_0()
-INDUSTRIES: List[Industry] = [Industry.Industrial()]
-APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Utilities(is_used=False)]
+APPLICATIONS: List[Union[Industry, Domain, Research]] = [
+    Industry.Utilities(is_used=False),
+    Industry.Automotive(is_used=False),
+]
 CATEGORY: Category = Category.EnergyAndUtilities()
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
