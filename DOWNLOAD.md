@@ -1,6 +1,6 @@
-Dataset **Road Damage** can be downloaded in Supervisely format:
+Dataset **Road Damage** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervise.ly/supervisely-supervisely-assets-public/teams_storage/u/z/wx/QeUaB05Hom7rcF7U6xCWKay9kkL1Y2lE3rANgwXzSGJddvvJoOX4LP3rakhpxSTEJywO93AKhg60bisu7aSHKINwDjjYvpxEWHYcI2wPzbkJ2J26YgT4thoBHuyz.tar)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/u/z/wx/QeUaB05Hom7rcF7U6xCWKay9kkL1Y2lE3rANgwXzSGJddvvJoOX4LP3rakhpxSTEJywO93AKhg60bisu7aSHKINwDjjYvpxEWHYcI2wPzbkJ2J26YgT4thoBHuyz.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
@@ -11,6 +11,8 @@ pip install --upgrade dataset-tools
 ``` python
 import dataset_tools as dtools
 
-dtools.download(dataset='Road Damage', dst_path='~/dtools/datasets/Road Damage.tar')
+dtools.download(dataset='Road Damage', dst_dir='~/dataset-ninja/')
 ```
-The data in original format can be 🔗[downloaded here](https://www.kaggle.com/datasets/alvarobasily/road-damage/download?datasetVersionNumber=1)
+Make sure not to overlook the [python code example](https://developer.supervisely.com/getting-started/python-sdk-tutorials/iterate-over-a-local-project) available on the Supervisely Developer Portal. It will give you a clear idea of how to effortlessly work with the downloaded dataset.
+
+The data in original format can be [downloaded here](https://www.kaggle.com/datasets/alvarobasily/road-damage/download?datasetVersionNumber=1)
