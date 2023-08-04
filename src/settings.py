@@ -22,7 +22,6 @@ PROJECT_NAME_FULL: str = "Road Damage"
 LICENSE: License = License.CC0_1_0()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [
     Industry.Utilities(is_used=False),
-    Industry.Automotive(is_used=False),
 ]
 CATEGORY: Category = Category.EnergyAndUtilities()
 
