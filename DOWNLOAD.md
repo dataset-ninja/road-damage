@@ -1,6 +1,6 @@
 Dataset **Road Damage** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzEwMzBfUm9hZCBEYW1hZ2Uvcm9hZC1kYW1hZ2UtRGF0YXNldE5pbmphLnRhciIsICJzaWciOiAiOGpQQWZMa1BtT1lEVXF0L0xTK2swYUIvejljb3M5UC90YU5YY2crUWY1Yz0ifQ==)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogInMzOi8vc3VwZXJ2aXNlbHktZGF0YXNldHMvMTAzMF9Sb2FkIERhbWFnZS9yb2FkLWRhbWFnZS1EYXRhc2V0TmluamEudGFyIiwgInNpZyI6ICJVbkZQZHdjNVRwTUE2bXdtZitZajlFUTBWMGJVSGN5VmdpbXErckk4ZzRJPSJ9?response-content-disposition=attachment%3B%20filename%3D%22road-damage-DatasetNinja.tar%22)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
